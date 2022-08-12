@@ -1,0 +1,121 @@
+body{
+    background-color: #edeee5;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    
+}*{ 
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    position:relative;
+    z-index: 1;
+    background-color: #a21211;
+    width: 100%;
+    color: rgb(255,255,255);
+}
+
+header{
+	margin-top: -10vh;
+	position:fixed;
+    font-size: 36px;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.content {
+    width: 40%;
+    padding: 20px;
+    border: 2px solid rgb(206, 205, 205);
+    margin: 0;
+    -webkit-box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
+	-moz-box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
+	box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    padding: 20px;
+    border: 3px solid rgb(206, 205, 205);
+    margin: 0;
+    -webkit-box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
+	-moz-box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
+	box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
+}
+
+
+#signupbutton{
+    background-color: #db6a6a;
+    color: #edeee5;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    border: 1px solid #a21211;
+    width: 80px;
+    -webkit-box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
+	-moz-box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
+	box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
+}
+
+#signupbutton:hover {background-color: #A31114}
+
+#signupbutton:active {
+  background-color: #A31114;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+
+#signinbutton{
+    background-color: #db6a6a;
+    color: #edeee5;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    border: 1px solid #a21211;
+    width: 80px;
+    -webkit-box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
+	-moz-box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
+	box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
+}
+
+#signinbutton:hover {background-color: #A31114}
+
+#signinbutton:active {
+  background-color: #A31114;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+
+#submitbtn{
+    background-color: #db6a6a;
+    color: #edeee5;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #a21211;
+    width: 80px;
+}
+
+#submitbtn:hover {background-color: #A31114}
+
+#submitbtn:active {
+  background-color: #A31114;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+
+.tables{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
