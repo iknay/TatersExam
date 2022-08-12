@@ -22,6 +22,8 @@ header{
 	margin-top: -10vh;
 	position:fixed;
     font-size: 36px;
+    color: #383f51;
+    font-family: 'Acme', sans-serif;
 }
 
 input::-webkit-inner-spin-button,
@@ -29,12 +31,27 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+input[type=text] {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
 
 .content {
+    background-color: #f19c9c;
     width: 40%;
     padding: 20px;
     border: 2px solid rgb(206, 205, 205);
     margin: 0;
+    
     -webkit-box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
 	-moz-box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
 	box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
@@ -54,7 +71,7 @@ input::-webkit-inner-spin-button {
 
 
 #signupbutton{
-    background-color: #db6a6a;
+    background-color: #d64949;
     color: #edeee5;
     font-family: 'Poppins', sans-serif;
     padding: 5px;
@@ -63,6 +80,7 @@ input::-webkit-inner-spin-button {
     -webkit-box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
 	-moz-box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
 	box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
+    border: none;
 }
 
 #signupbutton:hover {background-color: #A31114}
@@ -84,6 +102,7 @@ input::-webkit-inner-spin-button {
     -webkit-box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
 	-moz-box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
 	box-shadow: 0px 0px 12px 6px rgba(102, 102, 102, 0.25);
+    border: none;
 }
 
 #signinbutton:hover {background-color: #A31114}
@@ -103,6 +122,7 @@ input::-webkit-inner-spin-button {
     padding: 5px;
     border: 1px solid #a21211;
     width: 80px;
+    border: none;
 }
 
 #submitbtn:hover {background-color: #A31114}
